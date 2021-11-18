@@ -26,7 +26,7 @@ jobs:
           draft: true
           prerelease: false
   slack-message:
-    needs: new-release
+    needs: Ella
     runs-on: ubuntu-latest
     
     steps:
