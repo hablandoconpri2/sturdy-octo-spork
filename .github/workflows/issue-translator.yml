@@ -10,4 +10,4 @@ jobs:
   concho: 
     runs-on: ubuntu-latest
     steps:
-      - uses: tomsun28/issues-translate-action@latest
+      - uses: tomsun28/issues-translate-action@v2.6
