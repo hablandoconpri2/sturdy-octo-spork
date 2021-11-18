@@ -43,8 +43,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '2.7'
-      - name: Build gem
-        run: gem build *.gemspec
+      # - name: Build gem
+      #  run: gem build *.gemspec
       - name: Job finish slack notification
         uses: act10ns/slack@v1
         with:
